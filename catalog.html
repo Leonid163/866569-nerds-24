@@ -29,8 +29,66 @@
 
     <h3>Стоимость</h3>
 
+    <fieldset>
+        <legend>Сетка:</legend>
+        <ul>
+          <li>
+            <input type="radio" checked>
+            <label>
+              Адаптивная
+            </label>
+          </li>
+          <li>
+            <input type="radio">
+            <label>
+                Фиксированная
+            </label>
+          </li>
+          <li>
+            <input type="radio">
+            <label>
+                Резиновая
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset>
+          <legend>Особенности:</legend>
+          <ul>
+            <li>
+              <input type="checkbox" checked>
+              <label for="filter-baxter-of-california">
+               Слайдер
+              </label>
+            </li>
+            <li>
+              <input type="checkbox">
+              <label for="filter-mr-natty">
+                Блок преимущества
+              </label>
+            </li>
+            <li>
+              <input type="checkbox" checked>
+              <label for="filter-suavecito">
+                Новости
+              </label>
+            </li>
+            <li>
+                <input type="checkbox">
+                <label>
+                  Галерея
+                </label>
+              </li>
+              <li>
+                  <input type="checkbox">
+                  <label>
+                    Корзина
+                  </label>
+                </li>
+          </ul>
 
-<!-- Здесь будет форма -->
+        </fieldset>
+        <button class="button">Показать</button>
 </section>
 <section>
 
@@ -49,7 +107,7 @@
             <div>
             <a href="#">SEDONA</a>
             <p>Информационный сайт для туристов</p>
-            <p>9900 РУБ</p>
+            <button class="button">9900 РУБ</button>
           </div>
         </li>
 
@@ -57,7 +115,7 @@
         <div>
           <a href="#">PINK APP</a>
                 <p>Продуктивный лентинг приложений на iOS и Android</p>
-                <p>9900 РУБ</p>
+                <button class="button">9900 РУБ</button>
               </div>
             </li>
 
@@ -66,7 +124,7 @@
 
        <div> <a href="#">BARBERSHOP</a>
           <p>Сайт салона красоты.Для мужчин,да.</p>
-          <p>9900 РУБ</p>
+          <button class="button">9900 РУБ</button>
         </div>
         </li>
 <li>
@@ -74,14 +132,14 @@
 <div>
        <a href="#">MISHKA</a>
           <p>Интернет магазин вязаных игрушек</p>
-          <p>9900 РУБ</p>
+          <button class="button">9900 РУБ</button>
         </div>
         </li>
 <li>
        <div> <img src="img/img-aplus.jpg"  alt="Обучение">
         <a href="#">A PLUS</a>
           <p>Лендинг курсов повышения квалификации</p>
-          <p>9900 РУБ</p>
+          <button class="button">9900 РУБ</button>
         </div>
         </li>
 
@@ -89,15 +147,15 @@
           <img src="img/img-kvast.jpg"  alt="КВАСТ">
       <div><a href="#">КВАСТ</a>
           <p>Промо-сайт производителя крафтового кваса</p>
-          <p>9900 РУБ</p>
+          <button class="button">9900 РУБ</button>
         </div>
         </li>
     </ul>
     <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
-        <li>Следующая</li>
+        <li><button class="button">1</button></li>
+        <li><button class="button">2</button></li>
+        <li><button class="button">3</button></li>
+        <li><button class="button">Следующая</button></li>
     </ul>
 
 </section>
@@ -105,6 +163,23 @@
 <img src="img/index-logo7.svg" width="150" height="100" alt="NЁRDS DESIGN STUDIO 191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8 тел. +7 (812) 275-75-75">
 </main>
 <footer>
+    <section>
+        <h2>Напишите нам</h2><button class="button">X</button>
+        <form>
+        <p>
+          <label>Ваше имя</label>
+          <input type="text" name="name" value="" placeholder="Имя Фамилия">
+        </p>
+        <p>
+          <label>Ваш e-mail:</label>
+          <input type="text" name="email" value="" placeholder="Имя Фамилия">
+        </p>
+        <p>
+            <label>Текст письма:</label>
+          <input type="text" name="name" value="" placeholder="В свободной форме"></p>
+          <button class="button" type="submit">Отправить</button>
+        </form>
+        </section>
   <ul>
     <li><a class="social-button" href="#">Вконтакте</a></li>
     <li><a class="social-button" href="#">Фейсбук</a></li>
