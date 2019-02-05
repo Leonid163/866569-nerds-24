@@ -33,20 +33,20 @@
         <legend>Сетка:</legend>
         <ul>
           <li>
-            <input type="radio" checked>
-            <label>
+            <input id="adaptive" type="radio" checked>
+            <label for="adaptive">
               Адаптивная
             </label>
           </li>
           <li>
-            <input type="radio">
-            <label>
+            <input id="fixed" type="radio">
+            <label for="fixed">
                 Фиксированная
             </label>
           </li>
           <li>
-            <input type="radio">
-            <label>
+            <input id="rubber" type="radio">
+            <label for="rubber">
                 Резиновая
             </label>
           </li>
@@ -56,26 +56,26 @@
           <legend>Особенности:</legend>
           <ul>
             <li>
-              <input type="checkbox" checked>
-              <label for="filter-baxter-of-california">
+              <input id="slider" type="checkbox" checked>
+              <label for="slider">
                Слайдер
               </label>
             </li>
             <li>
-              <input type="checkbox">
-              <label for="filter-mr-natty">
+              <input id="block" type="checkbox">
+              <label for="block">
                 Блок преимущества
               </label>
             </li>
             <li>
-              <input type="checkbox" checked>
-              <label for="filter-suavecito">
+              <input id="new" type="checkbox" checked>
+              <label for="new">
                 Новости
               </label>
             </li>
             <li>
-                <input type="checkbox">
-                <label>
+                <input id="gallery" type="checkbox">
+                <label for="gallery">
                   Галерея
                 </label>
               </li>
@@ -88,7 +88,7 @@
           </ul>
 
         </fieldset>
-        <button class="button">Показать</button>
+        <button class="button" type="submit">Показать</button>
 </section>
 <section>
 
@@ -107,7 +107,7 @@
             <div>
             <a href="#">SEDONA</a>
             <p>Информационный сайт для туристов</p>
-            <button class="button">9900 РУБ</button>
+            <button class="button" type="button">9900 РУБ</button>
           </div>
         </li>
 
@@ -115,7 +115,7 @@
         <div>
           <a href="#">PINK APP</a>
                 <p>Продуктивный лентинг приложений на iOS и Android</p>
-                <button class="button">9900 РУБ</button>
+                <button class="button" type="button">9900 РУБ</button>
               </div>
             </li>
 
@@ -124,7 +124,7 @@
 
        <div> <a href="#">BARBERSHOP</a>
           <p>Сайт салона красоты.Для мужчин,да.</p>
-          <button class="button">9900 РУБ</button>
+          <button class="button" type="button " type="button">9900 РУБ</button>
         </div>
         </li>
 <li>
@@ -132,14 +132,14 @@
 <div>
        <a href="#">MISHKA</a>
           <p>Интернет магазин вязаных игрушек</p>
-          <button class="button">9900 РУБ</button>
+          <button class="button" type="button">9900 РУБ</button>
         </div>
         </li>
 <li>
        <div> <img src="img/img-aplus.jpg"  alt="Обучение">
         <a href="#">A PLUS</a>
           <p>Лендинг курсов повышения квалификации</p>
-          <button class="button">9900 РУБ</button>
+          <button class="button" type="button">9900 РУБ</button>
         </div>
         </li>
 
@@ -147,15 +147,15 @@
           <img src="img/img-kvast.jpg"  alt="КВАСТ">
       <div><a href="#">КВАСТ</a>
           <p>Промо-сайт производителя крафтового кваса</p>
-          <button class="button">9900 РУБ</button>
+          <button class="button" type="button">9900 РУБ</button>
         </div>
         </li>
     </ul>
     <ul>
-        <li><button class="button">1</button></li>
-        <li><button class="button">2</button></li>
-        <li><button class="button">3</button></li>
-        <li><button class="button">Следующая</button></li>
+        <li><button class="button" type="button">1</button></li>
+        <li><button class="button" type="button">2</button></li>
+        <li><button class="button" type="button">3</button></li>
+        <li><button class="button" type="button">Следующая</button></li>
     </ul>
 
 </section>
@@ -164,20 +164,21 @@
 </main>
 <footer>
     <section>
-        <h2>Напишите нам</h2><button class="button">X</button>
-        <form>
+        <h2>Напишите нам</h2>
+        <button class="button" type="button">X</button>
+        <form action="https://echo.htmlacademy.ru" method="post">
         <p>
-          <label>Ваше имя</label>
-          <input type="text" name="name" value="" placeholder="Имя Фамилия">
+          <label for="name">Ваше имя</label>
+          <input id="name" type="text" name="name" value="" placeholder="Имя Фамилия">
         </p>
         <p>
-          <label>Ваш e-mail:</label>
-          <input type="text" name="email" value="" placeholder="Имя Фамилия">
+          <label for="e-mail">Ваш e-mail:</label>
+          <input id="e-mail" type="email" name="email" value="" placeholder="Имя Фамилия">
         </p>
         <p>
-            <label>Текст письма:</label>
-          <input type="text" name="name" value="" placeholder="В свободной форме"></p>
-          <button class="button" type="submit">Отправить</button>
+            <textarea for="text-letter">Текст письма:</textarea>
+          <input id="text-letter" type="text" name="name" value="" placeholder="В свободной форме"></p>
+          <button  class="button" type="submit">Отправить</button>
         </form>
         </section>
   <ul>
