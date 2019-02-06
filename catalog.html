@@ -26,7 +26,7 @@
     <h2>Магазин готовых шаблонов</h2>
 
 <section>
-<form>
+  <form action="https://echo.htmlacademy.ru" method="post">
     <h3>Стоимость</h3>
      <fieldset>
         <legend>Сетка:</legend>
@@ -55,31 +55,31 @@
           <legend>Особенности:</legend>
           <ul>
             <li>
-              <input id="slider" type="checkbox" checked>
+              <input id="slider" type="checkbox" name="slider" checked>
               <label for="slider">
                Слайдер
               </label>
             </li>
             <li>
-              <input id="block" type="checkbox">
+              <input id="block" type="checkbox" name="block">
               <label for="block">
                 Блок преимущества
               </label>
             </li>
             <li>
-              <input id="new" type="checkbox" checked>
+              <input id="new" type="checkbox" name="new" checked>
               <label for="new">
                 Новости
               </label>
             </li>
             <li>
-                <input id="gallery" type="checkbox">
+                <input id="gallery" type="checkbox" name="gallery">
                 <label for="gallery">
                   Галерея
                 </label>
               </li>
               <li>
-                  <input id="basket" type="checkbox">
+                  <input id="basket" type="checkbox" name="basket">
                   <label for="basket">
                     Корзина
                   </label>
@@ -167,18 +167,18 @@
         </p>
         <p>
           <label for="e-mail">Ваш e-mail:</label>
-          <input id="e-mail" type="e-mail" name="e-mail" value="" placeholder="Имя Фамилия">
+          <input id="e-mail" type="email" name="e-mail" value="" placeholder="e-mail">
         </p>
         <p>
             <label for="text-letter">Текст письма:</label>
-          <textarea id="text-letter" type="text" name="name" value="" placeholder="В свободной форме"></textarea></p>
+          <textarea id="text-letter" type="text" name="name-text" value="" placeholder="В свободной форме"></textarea></p>
           <button  class="button" type="submit">Отправить</button>
         </form>
         </section>
   <ul>
-    <li><a class="social-button" href="#"><span class="visually-hidden">Вконтакте</span></a> </li>
-    <li><a class="social-button" href="#"><span class="visually-hidden">Фейсбук</span></li></a>
-    <li><a class="social-button" href="#"><span class="visually-hidden">Инстаграм</span></li></a>
+    <li><a class="social-button" href="#"><span class="visually-hidden">Вконтакте</span></a></li>
+    <li><a class="social-button" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
+    <li><a class="social-button" href="#"><span class="visually-hidden">Инстаграм</span></a></li>
   </ul>
   <b>Давайте дружить, это выгодно!</b>
   <p>Скидка 10%для друзей из социальных сетей.</p>
