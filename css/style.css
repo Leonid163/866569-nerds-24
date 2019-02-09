@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  color:#000000
+}
+
+.site-navigation,
+.user-navigation
+ {
+  list-style: none;
+}
+b {
+  font-family: "Roboto";
+  font-size: 24px;
+  line-height: 30px;
+}
+.features-list {
+  list-style: none;
+}
+.list {
+  list-style: none;
+}
+.down {
+  font-size: 36px;
+  line-height: 36px;
+}
+.down-p {
+  font-size: 16px;
+  line-height: 22px;
+}
+.product
+{
+  list-style: none;
+}
+.number{
+  list-style: none;
+}
