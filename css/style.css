@@ -12,10 +12,39 @@ body {
   background-position: top center;
   background-repeat: no-repeat;
 }
+.index-columns {
+  color: #000000;
 
+  background-color: #eeeeee;
+
+  background-position: 0 0;
+  background-repeat: repeat;
+}
+.index-footer {
+  color: #000000;
+
+  background-color: #eeeeee;
+
+  background-position: 0 0;
+  background-repeat: repeat;
+}
 a {
   text-decoration: none;
+
 }
+.footer-social ul {
+  list-style: none;
+}
+
+.social-button {
+  color: #000000;
+}
+.connection {color: #000000;
+
+  background-color: #ffffff;
+
+  background-position: 0 0;
+  background-repeat: repeat;}
 
 .main-navigation {
   font-size: 16px;
@@ -28,6 +57,72 @@ a {
  {
   list-style: none;
 }
+.site-navigation a,
+.user-navigation a,
+.product a{
+  color: #000000;
+}
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover,
+.user-navigation a:focus {
+  color: #fb565a;
+}
+.button-red {
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #fb565a;
+  border: none;}
+.button-green {
+    font: inherit;
+
+    text-align: center;
+    color: #ffffff;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #00ca74;
+    border: none;}
+    .button-yellow {
+      font: inherit;
+
+      text-align: center;
+      color: #ffffff;
+      vertical-align: middle;
+      text-transform: uppercase;
+
+      background-color: #efc84a;
+      border: none;}
+  .button-grey {
+    font: inherit;
+
+    text-align: center;
+    color: #000000;
+    vertical-align: middle;
+    text-transform: uppercase;
+
+    background-color: #eeeeee;
+    border: none;}
+.button-red:hover,
+.button-red:focus,
+.button-red:active {
+ background-color: #e74246;
+ }
+.button-green:hover,
+.button-green:focus,
+.button-green:active {
+ background-color: #00bc6c;
+ }
+ .button-yellow:hover,
+ .button-yellow:focus,
+ .button-yellow:active {
+  background-color: #eab534;
+  }
 b {
   font-family: "Roboto";
   font-size: 24px;
