@@ -2,26 +2,19 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "Roboto";
+  font-family: "Roboto, Arial, sans-serif";
   font-size: 16px;
   line-height: 24px;
-  color: #000000;
-  text-transform: uppercase;
-
+  color: #444444;
   background-color: #ffffff;
   background-position: top center;
   background-repeat: no-repeat;
 }
-.index-columns {
-  color: #000000;
 
-  background-color: #eeeeee;
-
-  background-position: 0 0;
-  background-repeat: repeat;
-}
-.index-footer {
-  color: #000000;
+.index-footer,
+.index-columns,
+.button-style1 {
+  color: #444444;
 
   background-color: #eeeeee;
 
@@ -39,7 +32,7 @@ a {
 .social-button {
   color: #000000;
 }
-.connection {color: #000000;
+.connection {color: #444444;
 
   background-color: #ffffff;
 
@@ -53,7 +46,12 @@ a {
 }
 
 .site-navigation,
-.user-navigation
+.user-navigation,
+.pictures,
+.statistic,
+.settings,
+.settings2,
+.button-features-list
  {
   list-style: none;
 }
@@ -68,7 +66,8 @@ a {
 .user-navigation a:focus {
   color: #fb565a;
 }
-.button-red {
+.button-style1,
+.button-features-list {
   font: inherit;
 
   text-align: center;
@@ -78,7 +77,7 @@ a {
 
   background-color: #fb565a;
   border: none;}
-.button-green {
+.button-style2 {
     font: inherit;
 
     text-align: center;
@@ -88,7 +87,7 @@ a {
 
     background-color: #00ca74;
     border: none;}
-    .button-yellow {
+    .button-style3 {
       font: inherit;
 
       text-align: center;
@@ -98,54 +97,96 @@ a {
 
       background-color: #efc84a;
       border: none;}
-  .button-grey {
+  .button-style4{
     font: inherit;
 
     text-align: center;
-    color: #000000;
+    color: #444444;
     vertical-align: middle;
     text-transform: uppercase;
 
     background-color: #eeeeee;
     border: none;}
-.button-red:hover,
-.button-red:focus,
-.button-red:active {
+.button-style1:hover,
+.button-style1:focus,
+ {
  background-color: #e74246;
  }
-.button-green:hover,
-.button-green:focus,
-.button-green:active {
+ .button-style1:active {
+  background-color: #d7373b;
+  color: rgba(255, 255, 255, 0.3);
+  }
+.button-style2:hover,
+.button-style2:focus,
+ {
  background-color: #00bc6c;
  }
- .button-yellow:hover,
- .button-yellow:focus,
- .button-yellow:active {
+
+ .button-style2:active{
+   background-color: #00aa62
+   rgba(255, 255, 255, 0.3);
+  }
+
+ .button-style3:hover,
+ .button-style3:focus,
+  {
   background-color: #eab534;
   }
-b {
+  .button-style3:active {
+    background-color: #eab534;
+  }
+/*b {
   font-family: "Roboto";
   font-size: 24px;
   line-height: 30px;
 }
-.features-list {
+*/
+.features-list,
+.shop {
   list-style: none;
+  color: #000000;
+
+  background-color: #eeeeee;
+
+  background-position: 0 0;
+  background-repeat: repeat;
 }
-.list {
-  list-style: none;
-}
+
 .down {
   font-size: 36px;
-  line-height: 36px;
+
 }
 .down-p {
   font-size: 16px;
   line-height: 22px;
 }
-.product
+.product,
+.number,
+.list
 {
   list-style: none;
 }
-.number{
-  list-style: none;
+
+.info{
+  color: #000000;
+  background-color: #eeeeee;
+  line-height: 22px;
 }
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+.cap,
+.shop{
+  font-size: 55px;
+  line-height: 24px;
+}
+.services{
+  font-size: 24px;
+  }
+ .style-cap {
+  line-height: 24px;
+ }

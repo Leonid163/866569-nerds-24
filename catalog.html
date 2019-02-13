@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Nerd's catalog</title>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 <header class="main-header">
     <div class="index-columns">
-       <a href="index.html"><img src="img/index-logo.svg" width="150" height="100" alt="Нёрдс"></a>
+       <a href="index.html"><img src="img/nerds-logo.svg" width="160" height="65" alt="Нёрдс"></a>
 
     <nav class="main-navigation">
     <ul class="site-navigation">
@@ -25,14 +26,14 @@
 </nav>
 </header>
 <main>
-    <h2>Магазин готовых шаблонов</h2>
+    <h2 class="shop">Магазин готовых шаблонов</h2>
 
 <section>
   <form action="https://echo.htmlacademy.ru" method="get">
     <h3>Стоимость</h3>
      <fieldset>
         <legend>Сетка:</legend>
-        <ul>
+        <ul class="settings">
           <li>
             <input id="adaptive" type="radio" name="product-group" value="adaptive" checked>
             <label for="adaptive">
@@ -55,7 +56,7 @@
       </fieldset>
       <fieldset>
           <legend>Особенности:</legend>
-          <ul>
+          <ul class="settings2">
             <li>
               <input id="slider" type="checkbox" name="slider"  checked>
               <label for="slider">
@@ -89,7 +90,7 @@
           </ul>
 
         </fieldset>
-        <button class="button-grey" type="submit">Показать</button>
+        <button class="button-style4" type="submit">Показать</button>
       </form>
 </section>
 <section>
@@ -101,49 +102,52 @@
         <a class="button">	&#9660; <span class="visually-hidden">По возрастанию</span></a>
   <ul class="product">
             <li><img src="img/img-sedona.jpg" alt=" SEDONA">
-            <div>
+            <div class="info">
             <a href="#">SEDONA</a>
             <p>Информационный сайт для туристов</p>
-            <button class="button-red" type="button">9900 РУБ</button>
+            <button class="button-style1" type="button">9900 РУБ</button>
           </div>
         </li>
 
         <li><img src="img/img-pink.jpg"  alt=" PINK">
-        <div>
+        <div class="info">
           <a href="#">PINK APP</a>
                 <p>Продуктивный лентинг приложений на iOS и Android</p>
-                <button class="button-red" type="button">9900 РУБ</button>
+                <button class="button-style1" type="button">9900 РУБ</button>
               </div>
             </li>
         <li>
             <img src="img/img-barbershop.jpg"  alt="Barbershop">
 
-       <div> <a href="#">BARBERSHOP</a>
+       <div class="info">
+         <a href="#">BARBERSHOP</a>
           <p>Сайт салона красоты.Для мужчин,да.</p>
-          <button class="button-red" type="button " type="button">9900 РУБ</button>
+          <button class="button-style1" type="button " type="button">9900 РУБ</button>
         </div>
         </li>
 <li>
        <img src="img/img-mishka.jpg"  alt="Mishka">
-<div>
+<div class="info">
        <a href="#">MISHKA</a>
           <p>Интернет магазин вязаных игрушек</p>
-          <button class="button-red" type="button">9900 РУБ</button>
+          <button class="button-style1" type="button">9900 РУБ</button>
         </div>
         </li>
 <li>
-       <div> <img src="img/img-aplus.jpg"  alt="Обучение">
+  <img src="img/img-aplus.jpg"  alt="Обучение">
+       <div class="info">
         <a href="#">A PLUS</a>
           <p>Лендинг курсов повышения квалификации</p>
-          <button class="button-red" type="button">9900 РУБ</button>
+          <button class="button-style1" type="button">9900 РУБ</button>
         </div>
         </li>
 
        <li>
           <img src="img/img-kvast.jpg"  alt="КВАСТ">
-      <div><a href="#">КВАСТ</a>
+      <div class="info">
+        <a href="#">КВАСТ</a>
           <p>Промо-сайт производителя крафтового кваса</p>
-          <button class="button-red" type="button">9900 РУБ</button>
+          <button class="button-style1" type="button">9900 РУБ</button>
         </div>
         </li>
     </ul>
@@ -175,7 +179,7 @@
     <p>
         <label for="text-letter">Текст письма:</label>
       <textarea id="text-letter" type="text-letter" name="name-text" value="" placeholder="В свободной форме"></textarea></p>
-      <button  class="button-red" type="submit">Отправить</button>
+      <button  class="button-style1" type="submit">Отправить</button>
     </form>
     </section>
     <div class="footer-social">
