@@ -14,7 +14,7 @@ body {
 .index-footer,
 .index-columns,
 .button-style1 {
-  color: #444444;
+  color: #000000;
 
   background-color: #eeeeee;
 
@@ -101,7 +101,7 @@ a {
     font: inherit;
 
     text-align: center;
-    color: #444444;
+    color: #000000;
     vertical-align: middle;
     text-transform: uppercase;
 
@@ -184,9 +184,21 @@ a {
   font-size: 55px;
   line-height: 24px;
 }
-.services{
+.services,
+{
   font-size: 24px;
+  color:#000000;
   }
  .style-cap {
   line-height: 24px;
  }
+ .services-style,
+ .statistic-accuracy{
+   color:#000000;
+   font-size: 45px;
+ }
+ .box {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
