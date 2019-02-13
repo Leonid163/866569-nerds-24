@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "Roboto, Arial, sans-serif";
+  font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #444444;
@@ -108,7 +108,7 @@ a {
     background-color: #eeeeee;
     border: none;}
 .button-style1:hover,
-.button-style1:focus,
+.button-style1:focus
  {
  background-color: #e74246;
  }
