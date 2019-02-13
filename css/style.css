@@ -117,7 +117,7 @@ a {
   color: rgba(255, 255, 255, 0.3);
   }
 .button-style2:hover,
-.button-style2:focus,
+.button-style2:focus
  {
  background-color: #00bc6c;
  }
@@ -128,12 +128,12 @@ a {
   }
 
  .button-style3:hover,
- .button-style3:focus,
+ .button-style3:focus
   {
   background-color: #eab534;
   }
   .button-style3:active {
-    background-color: #eab534;
+    background-color: #e5a722;
   }
 /*b {
   font-family: "Roboto";
