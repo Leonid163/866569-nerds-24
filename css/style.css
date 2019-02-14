@@ -15,15 +15,12 @@ body {
 .index-columns,
 .button-style1 {
   color: #000000;
-
   background-color: #eeeeee;
-
   background-position: 0 0;
   background-repeat: repeat;
 }
 a {
   text-decoration: none;
-
 }
 .footer-social ul {
   list-style: none;
@@ -32,10 +29,9 @@ a {
 .social-button {
   color: #000000;
 }
-.connection {color: #444444;
-
+.connection {
+  color: #444444;
   background-color: #ffffff;
-
   background-position: 0 0;
   background-repeat: repeat;}
 
@@ -59,6 +55,8 @@ a {
 .user-navigation a,
 .product a{
   color: #000000;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 .site-navigation a:hover,
 .site-navigation a:focus,
@@ -172,6 +170,9 @@ a {
   background-color: #eeeeee;
   line-height: 22px;
 }
+.info-text {
+  line-height:18px;
+}
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -179,26 +180,92 @@ a {
   height: 1px;
   margin: -1px;
 }
-.cap,
 .shop{
   font-size: 55px;
   line-height: 24px;
 }
-.services,
+.services
 {
   font-size: 24px;
   color:#000000;
+  line-height: 30px;
   }
  .style-cap {
   line-height: 24px;
  }
  .services-style,
  .statistic-accuracy{
-   color:#000000;
+   color:#283136;
    font-size: 45px;
  }
  .box {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
+  line-height:30px;
+}
+
+.number {
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+.number:hover,
+.number:focus,
+.number:active {
+  color: #000000;
+  background-color: #eeeeee;
+}
+.button-number {
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+.button-number,
+.button-number,
+.button-number{
+  color: #000000;
+  background-color: #ffffff;
+}
+ .cap{
+  font-size: 55px;
+  color:#000000;
+  line-height: 55px;
+ }
+ .site-navigation a:active {
+   color: #000000;
+   }
+.button-style1 {
+  font: weight 700;
+}
+.cost {
+  font-size: 18px;
+  line-height:30px;
+}
+.grid,
+.features{
+ color:#000000
+}
+.settings,
+.settings2 {
+  color:#283136;
+}
+.button {
+  color: rgba(0, 0, 0, 0.302);
+  font-size: 14px;
+  line-height:18px;
+}
+.button:hover,
+.button:focus,
+.button:active {
+  color: rgb(0, 0, 0);
+}
+.button-so {
+  color: #000000;
+}
+
+.button-so,
+.button-so,
+.button-so {
+  color: #000000;
 }
