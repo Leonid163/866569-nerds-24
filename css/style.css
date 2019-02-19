@@ -285,8 +285,8 @@ a {
   margin-right: 202px;
   font-size: 0;
   padding: 20px;
-
 }
+.main-header{background-color: #eeeeee}
 .site-navigation{
   display: flex;
   flex-direction: row;
@@ -303,4 +303,65 @@ padding: 20px;
   width: 1160px;
   margin: 0 auto;
   padding: 0 20px;
+
+}
+.seven {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-bottom: 2px solid #eee;
+}
+.list {
+  width: 300px;
+  margin-right: 100px;
+}
+.list {
+display: flex;
+flex-direction: row;
+}
+.list-seven
+{
+  width: 300px;
+  margin-right: 100px;
+}
+.description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 70px;
+  border-bottom: 2px solid #eee;
+}
+.left{
+  width: 670px;
+  padding-top: 30px;
+}
+.right{
+  width: 360px;
+  padding-top: 250px;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.statistic{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.accuracy{
+margin: 0 0 30px;
+text-transform: uppercase;
+}
+
+.pictures{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+  border-bottom: 2px solid #eee;
+}
+.pic{
+  display: list-item;
 }
