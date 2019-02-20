@@ -369,4 +369,16 @@ text-transform: uppercase;
 .pic{
   display: list-item;
 }
-.map {background-image: url(../img/map.png) }
+.map {
+   background-image: url(../img/map.png);
+  height: 400px;
+}
+
+.map-info {
+  position: absolute;
+  top: 50px;
+  width: 319px;
+  height: 308px;
+  padding: 45px 50px;
+  background-color: #ffffff;
+}
