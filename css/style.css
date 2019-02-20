@@ -282,7 +282,9 @@ a {
   padding-bottom: 34px;
 }
 .main-header-logo {
-  margin-right: 202px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   font-size: 0;
   padding: 20px;
 }
@@ -292,7 +294,7 @@ a {
   flex-direction: row;
   justify-content: space-between;
   width: 440px;
-  margin: 0 auto 0 0;
+
   padding: 0;
 
 }
@@ -321,7 +323,8 @@ flex-direction: row;
 .list-seven
 {
   width: 300px;
-  margin-right: 100px;
+  justify-content: space-between;
+  padding: 30px;
 }
 .description {
   display: flex;
@@ -337,7 +340,7 @@ flex-direction: row;
 }
 .right{
   width: 360px;
-  padding-top: 250px;
+  padding-top: 25px;
   background-repeat: no-repeat;
   background-position: center top;
 }
@@ -345,6 +348,7 @@ flex-direction: row;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 0;
 }
 .accuracy{
 margin: 0 0 30px;
@@ -365,3 +369,4 @@ text-transform: uppercase;
 .pic{
   display: list-item;
 }
+.map {background-image: url(../img/map.png) }
