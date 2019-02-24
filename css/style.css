@@ -209,7 +209,7 @@ a {
 
 .number {
   color: #000000;
-  background-color: #eeeeee;
+
 }
 
 .number:hover,
@@ -409,7 +409,7 @@ text-transform: uppercase;
 }
 
 .filter{
-  display: flex;
+  line-height: 1.15;
   flex-direction: row;
   margin-bottom: 55px;
 }
@@ -417,7 +417,7 @@ text-transform: uppercase;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 360px;
+
   margin: 0;
   padding: 2px 0 0;
   list-style: none;
@@ -430,10 +430,32 @@ text-transform: uppercase;
 }
 .product-1{
   position: relative;
-  width: 360px;
+  width: 400px;
   padding-top: 40px;
   margin-bottom: 35px;
   background-repeat: no-repeat;
   background-position: top;
 }
-
+.number{
+  display: flex;
+}
+.number-style {
+  margin-right: 10px;
+}
+.filter-B{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 360px;
+  margin: 10px;
+  padding: 2px 0 0;
+  list-style: none;
+}
+.filter-A{
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  width: 350px;
+  text-transform: uppercase;
+  margin-right: 100px;
+}
