@@ -2,33 +2,37 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Nerd's catalog</title>
+    <title>Nerd's</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 <header class="main-header">
+  <div class="container">
     <div class="index-columns">
-       <a href="index.html"><img src="img/nerds-logo.png" width="160" height="65" alt="Нёрдс"></a>
-
     <nav class="main-navigation">
+        <a class="main-header-logo">
+            <img src="img/nerds-logo.png" width="160" height="65" alt="Логотип Нёрдс">
+          </a>
     <ul class="site-navigation">
-      <li><a href="studio.html">Студия</a></li>
-      <li><a href="client.html">Клиенты</a></li>
-      <li><a href="#">Магазин</a></li>
-      <li><a href="contact.html">Контакты</a></li>
+      <li class="style-site"><a href="studio.html">Студия</a></li>
+      <li class="style-site"><a href="client.html">Клиенты</a></li>
+      <li class="style-site"><a href="catalog.html">Магазин</a></li>
+      <li class="style-site"><a href="contact.html">Контакты</a></li>
     </ul>
-    <ul class="user-navigation">
-      <li><a class="basket-link" href="basket.html">Корзина</a></li>
-    </ul>
+    <div class="user-navigation">
+      <a class="basket-link" href="basket.html">Корзина</a>
+    <div>
+   </nav>
+   </div>
   </div>
-</nav>
 </header>
 <main>
     <h2 class="shop">Магазин готовых шаблонов</h2>
+<section class="catalog-all">
 
-<section>
+<section class="catalog-info">
   <form сlass="elements" action="https://echo.htmlacademy.ru" method="get">
     <h3 class="cost">Стоимость</h3>
      <fieldset>
@@ -93,15 +97,17 @@
         <button class="button-style4" type="submit">Показать</button>
       </form>
 </section>
-<section>
+<section class="filter">
+  <div class="filter-1">
         <p>Сортировать</p>
         <a class="button-so">По цене <span class="visually-hidden">По цене</span></a>
         <a class="button">По типу<span class="visually-hidden">По типу</span></a>
         <a class="button">По названию <span class="visually-hidden">По названию</span></a>
         <a class="button-so">	&#9650; <span class="visually-hidden">По убыванию</span></a>
         <a class="button">	&#9660; <span class="visually-hidden">По возрастанию</span></a>
+      </div>
   <ul class="product">
-            <li><img src="img/img-sedona.jpg" alt=" SEDONA">
+            <li class="product-1"><img src="img/img-sedona.jpg" alt=" SEDONA">
             <div class="info">
             <a href="#" class="box">SEDONA</a>
             <p>Информационный сайт для туристов</p>
@@ -109,14 +115,14 @@
           </div>
         </li>
 
-        <li><img src="img/img-pink.jpg"  alt=" PINK">
+        <li class="product-1"><img src="img/img-pink.jpg"  alt=" PINK">
         <div class="info">
           <a href="#" class="box">PINK APP</a>
                 <p class="info-text">Продуктивный лентинг приложений на iOS и Android</p>
                 <button class="button-style1" type="button">9900 РУБ</button>
               </div>
             </li>
-        <li>
+        <li class="product-1">
             <img src="img/img-barbershop.jpg"  alt="Barbershop">
 
        <div class="info">
@@ -125,7 +131,7 @@
           <button class="button-style1" type="button " type="button">9900 РУБ</button>
         </div>
         </li>
-<li>
+<li class="product-1">
        <img src="img/img-mishka.jpg"  alt="Mishka">
 <div class="info">
        <a href="#" class="box">MISHKA</a>
@@ -133,7 +139,7 @@
           <button class="button-style1" type="button">9900 РУБ</button>
         </div>
         </li>
-<li>
+<li class="product-1">
   <img src="img/img-aplus.jpg"  alt="Обучение">
        <div class="info">
         <a href="#" class="box">A PLUS</a>
@@ -142,7 +148,7 @@
         </div>
         </li>
 
-       <li>
+       <li class="product-1">
           <img src="img/img-kvast.jpg"  alt="КВАСТ">
       <div class="info">
         <a href="#" class="box">КВАСТ</a>
@@ -151,6 +157,7 @@
         </div>
         </li>
     </ul>
+
     <ul class="number">
         <li><button class="button-number" type="button">1</button></li>
         <li><button class="button" type="button">2</button></li>
@@ -158,6 +165,8 @@
         <li><button class="button" type="button">Следующая</button></li>
     </ul>
 
+
+</section>
 </section>
 
 <img src="img/index-logo7.svg" width="150" height="100" alt="NЁRDS DESIGN STUDIO 191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8 тел. +7 (812) 275-75-75">
