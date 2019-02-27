@@ -388,7 +388,9 @@ text-transform: uppercase;
   margin:  30px 30px;
 
 }
-.banner {background-color: #eeeeee
+.banner {
+  position: relative;
+  background-color: #eeeeee
 }
 .catalog-all{
   display: flex;
@@ -564,11 +566,11 @@ text-transform: uppercase;
   cursor: pointer;
   padding: 8px;
 
-  /* Временно для демонстрации */
-  background-color: red;
+
 }
   .slider-controls i {
     position: relative;
+
 }
 .slider-controls i::after {
   content: "";
@@ -595,4 +597,14 @@ text-transform: uppercase;
   text-align: center;
   font-size: 0;
   transform: translateX(-50%);
+}
+.slider-controls .active::before {
+
+}
+.slider-item {
+  display: none;
+}
+
+.slider-item:nth-child(1) {
+  display: block;
 }
