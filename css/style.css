@@ -621,6 +621,7 @@ text-transform: uppercase;
 .slider-item:nth-child(1) {
   display: block;
 }
+
 .slider-item:nth-child(1) {
   background-image: url("../img/slide1.png");
   background-repeat: no-repeat;
@@ -637,15 +638,15 @@ text-transform: uppercase;
   background-repeat: no-repeat;
   background-position: 100% 20px;
 }
-#product-1:checked ~ .slider-list .slider-item:nth-child(1) {
+#product-1:checked ~ .features-list .slider-item:nth-child(1) {
   display: block;
 }
 
-#product-2:checked ~ .slider-list .slider-item:nth-child(2) {
+#product-2:checked ~ .features-list .slider-item:nth-child(2) {
   display: block;
 }
 
-#product-3:checked ~ .slider-list .slider-item:nth-child(3) {
+#product-3:checked ~ .features-list .slider-item:nth-child(3) {
   display: block;
 }
 
