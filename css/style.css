@@ -13,7 +13,7 @@ body {
 
 .index-footer,
 .index-columns,
-.button-style1 {
+ {
   color: #000000;
   background-color: #eeeeee;
   background-position: 0 0;
@@ -185,6 +185,7 @@ a {
 .shop{
   font-size: 55px;
   line-height: 55px;
+  margin: 0px;
 }
 .services
 {
@@ -213,8 +214,8 @@ a {
 }
 
 .number:hover,
-.number:focus,
-.number:active {
+.number:focus, /*.number:active*убрал , чтобы не выделялась полоса */
+ {
   color: #000000;
   background-color: #eeeeee;
 }
@@ -247,6 +248,7 @@ a {
 .grid,
 .features{
  color:#000000
+
 }
 .settings,
 .settings2 {
@@ -371,8 +373,10 @@ text-transform: uppercase;
 }
 .map {
    background-image: url(../img/map.png);
-  height: 400px;
+   min-height: 400px;
   padding: 20px;
+  background-size: cover;
+
 }
 
 .map-info {
@@ -412,12 +416,13 @@ text-transform: uppercase;
   line-height: 1.15;
   flex-direction: row;
   margin-bottom: 55px;
+
 }
 .filter-1{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
+  align-items: center;
   margin: 0;
   padding: 2px 0 0;
   list-style: none;
@@ -457,5 +462,137 @@ text-transform: uppercase;
   font-weight: 400;
   width: 350px;
   text-transform: uppercase;
-  margin-right: 100px;
+
+}
+.features-list {
+  margin: 0px;
+}
+.down-top{
+
+}
+.social-title{
+
+}
+.social{
+  align-items: center;
+  min-height: 217px;
+  justify-content: flex-start;
+}
+.social-click{
+  justify-content: space-between;
+  width: 260px;
+  padding: 0;
+  margin: 0 140px 0 0;
+  font-size: 0;
+  list-style: none;
+}
+.shop{
+    padding: 0;
+  margin: 0;
+  color: #000;
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 400;
+  text-align: center;}
+.xxx{
+  border: none;
+}
+/* Баннеры     "features-list"       slider-item   */
+.slider-item {
+  display: none;
+}
+
+.slider-item:nth-child(1) {
+  display: block;
+}
+
+.button-style1 {
+  display: block;
+  width: 240px;
+  padding: 13px 0;
+
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+
+  background-color: #fb565a;
+  border-radius: 3px;
+  border: none;
+}
+
+.button-style1:hover,
+.button-style1:focus {
+  background-color: #e74246;
+}
+
+.button-style1:active {
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: #d7373b;
+  box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
+}
+.features-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+.cap  {
+  font-size: 55px;
+  line-height: 55px;
+  font-weight: 500;
+
+  max-width: 600px;
+  margin: 0;
+  margin-bottom: 27px;
+}
+
+.style-cap {
+  max-width: 430px;
+  margin: 0;
+  margin-bottom: 38px;
+}
+.slider-controls i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  position: relative;
+  border-radius: 50%;
+  cursor: pointer;
+  padding: 8px;
+
+  /* Временно для демонстрации */
+  background-color: red;
+}
+  .slider-controls i {
+    position: relative;
+}
+.slider-controls i::after {
+  content: "";
+
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 1;
+
+  background: #ffffff;;
+}
+.slider-controls {
+  position: absolute;
+  left: 50%;
+  bottom: 104px;
+  z-index: 100;
+
+  width: 160px;
+  height: 18px;
+
+  text-align: center;
+  font-size: 0;
+  transform: translateX(-50%);
 }
