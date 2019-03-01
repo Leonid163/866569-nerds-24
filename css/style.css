@@ -504,9 +504,6 @@ text-transform: uppercase;
   display: none;
 }
 
-.slider-item:nth-child(1) {
-  display: block;
-}
 
 .button-style1 {
   display: block;
@@ -618,9 +615,7 @@ text-transform: uppercase;
   padding: 78px 0 80px 0;
 }
 
-.slider-item:nth-child(1) {
-  display: block;
-}
+
 
 .slider-item:nth-child(1) {
   background-image: url("../img/slide1.png");
@@ -665,4 +660,124 @@ text-transform: uppercase;
   border: 2px solid #c1c1c1;
   border-radius: 50%;
 }
+
+/* Фильтр сложный*/
+
+.filter-item {
+  margin: 0;
+  padding: 0;
+
+  border: none;
+
+  /* Для демонстрации */
+  width: 260px;
+  margin: 50px auto;
+}
+
+.range-filter {
+  width: 260px;
+  margin-top: 49px;
+}
+
+.filter-item legend {
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.range-controls {
+  height: 41px;
+  margin-bottom: 15px;
+  padding-top: 39px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: #f1f1f1;
+
+  border-radius: 5px;
+}
+.range-controls .scale {
+  height: 2px;
+
+  background: #d7dcde;
+}
+.range-controls .bar {
+  width: 70%;
+  height: 2px;
+
+  background: #00ca74;
+}
+.range-controls {
+  position: relative;
+}
+.range-controls .toggle {
+  position: absolute;
+  top: 31px;
+  left: 0;
+
+  width: 4px;
+  height: 4px;
+  padding: 0;
+
+  border: 8px solid #ffffff;
+  background-color: #ababab;
+  border-radius: 50%;
+  box-shadow: 0 2px 1px 0 #cfcfcf;
+  cursor: pointer;
+}
+
+.range-controls .toggle-min {
+  left: 18px;
+}
+
+.range-controls .toggle-max {
+  left: 160px;
+}
+.price-controls {
+  font-size: 0;
+}
+
+.price-controls label {
+  display: inline-block;
+  width: 50%;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.price-controls input {
+  width: 60px;
+  padding: 8px 10px;
+  margin-left: 10px;
+
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  color: #283136;
+  border: none;
+  border-radius: 5px;
+  background: #f1f1f1;
+}
+.max-price {
+  text-align: right;
+}
+.range-controls .toggle-min {
+  left: 50px;
+}
+
+.range-controls .toggle-max {
+  left: 110px;
+}
+ /*  Футер с появляющимся окном  */
+
+ .note {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  top: calc(50% - 301px);
+  left: calc(50% - 480px);
+  box-sizing: border-box;
+  width: 960px;
+  padding: 80px 100px;
+  background-color: #fff;
+  box-shadow: 0 30px 50px rgba(0,0,0,.7);
+}
+
 
