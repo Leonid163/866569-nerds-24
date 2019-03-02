@@ -449,7 +449,7 @@ text-transform: uppercase;
 .number-style {
   margin-right: 10px;
 }
-.filter-B{
+.filter-b{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -458,7 +458,7 @@ text-transform: uppercase;
   padding: 2px 0 0;
   list-style: none;
 }
-.filter-A{
+.filter-a{
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
