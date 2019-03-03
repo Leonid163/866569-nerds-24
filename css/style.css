@@ -779,5 +779,19 @@ text-transform: uppercase;
   background-color: #fff;
   box-shadow: 0 30px 50px rgba(0,0,0,.7);
 }
+.container-al{
+  display: flex;
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.container3{
+  width: 400px;
 
+  padding: 0 20px;
+}
+.container2{
+  width: 600 px;
 
+  padding: 0 20px;
+}
