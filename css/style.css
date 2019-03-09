@@ -168,6 +168,9 @@ a {
 }
 
 .info{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
   color: #000000;
   background-color: #eeeeee;
   line-height: 22px;
@@ -314,13 +317,14 @@ padding: 20px;
   padding-bottom: 80px;
   border-bottom: 2px solid #eee;
 }
-.list {
+/*.list {
   width: 300px;
   margin-right: 100px;
-}
+} */
 .list {
 display: flex;
-flex-direction: row;
+justify-content:space-between;
+padding-left: 0;
 }
 .list-seven
 {
@@ -415,9 +419,12 @@ text-transform: uppercase;
 }
 
 .filter{
+  justify-content: flex-start;
+  display: flex;
   line-height: 1.15;
-  flex-direction: row;
   margin-bottom: 55px;
+  padding-top: 30px;
+  align-items: center;
 
 }
 .filter-1{
@@ -430,14 +437,17 @@ text-transform: uppercase;
   list-style: none;
 }
 .product{
+  width: cals (100%+40px);
+  margin-right: -40px;
+  padding: 0;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 .product-1{
+  margin-right: 40px;
   position: relative;
-  width: 400px;
+  width: 360px;
   padding-top: 40px;
   margin-bottom: 35px;
   background-repeat: no-repeat;
@@ -453,7 +463,7 @@ text-transform: uppercase;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 160px;
+
   margin: 10px;
   padding: 2px 0 0;
   list-style: none;
@@ -771,8 +781,9 @@ text-transform: uppercase;
   display: none;
   position: fixed;
   z-index: 100;
-  top: calc(50% - 301px);
-  left: calc(50% - 480px);
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
   box-sizing: border-box;
   width: 960px;
   padding: 80px 100px;
@@ -786,7 +797,7 @@ text-transform: uppercase;
   padding: 0 20px;
 }
 .container3{
-  width: 800px;
+  width: 760px;
 
   padding: 0 20px;
 }
@@ -794,4 +805,51 @@ text-transform: uppercase;
   width: 600 px;
 
   padding: 0 20px;
+}
+.list-info {
+  max-width: 533px;
+}
+
+.product-1 img {
+  width: 100%;
+  height: auto;
+}
+.fill {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.slow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  width: 23px;
+  height: 22px;
+  background: rgba(255,255,255,0);
+  padding: 0;
+
+}
+.snow {
+  padding: 0;
+  margin: 0 0 40px;
+  color: #000;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 400;
+  text-align: left;
+}
+.boroboro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.bor1{
+  width: 50%;
+  margin: 0 0 30px;
+  display: flex;
+  flex-direction: column;
+}
+.bor2{
+  width: 100%;
 }
