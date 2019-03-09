@@ -78,25 +78,34 @@ a {
   background-color: #fb565a;
   border: none;}
 .button-style2 {
-    font: inherit;
-
-    text-align: center;
-    color: #ffffff;
-    vertical-align: middle;
-    text-transform: uppercase;
-
-    background-color: #00ca74;
-    border: none;}
+  display: block;
+  width: 240px;
+  padding: 13px 0;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px;
+  border: none;
+   background-color: #00ca74;
+  }
     .button-style3 {
-      font: inherit;
+  display: block;
+  width: 240px;
+  padding: 13px 0;
 
-      text-align: center;
-      color: #ffffff;
-      vertical-align: middle;
-      text-transform: uppercase;
-
-      background-color: #efc84a;
-      border: none;}
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3px;
+  border: none;
+  background-color: #efc84a
+    }
   .button-style4{
     font: inherit;
 
@@ -203,7 +212,29 @@ a {
  .statistic-accuracy{
    color:#283136;
    font-size: 45px;
+   line-height: 45px;
  }
+ .services-style-info{
+  line-height: 24px;
+ }
+ .servise-info {
+  text-transform: uppercase;
+ }
+ .servise-info-style
+{
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+
+  line-height: 1.5;
+  text-align: left;
+
+  left: 115px;
+  top: 1368.312px;
+  width: 431px;
+  height: 160px;
+  z-index: 40;
+}
  .box {
   font-size: 18px;
   font-weight: bold;
@@ -798,8 +829,8 @@ text-transform: uppercase;
 }
 .container3{
   width: 760px;
+  padding-left: 140px;
 
-  padding: 0 20px;
 }
 .container2{
   width: 600 px;
@@ -852,4 +883,19 @@ text-transform: uppercase;
 }
 .bor2{
   width: 100%;
+}
+.button-style12 {
+  display: block;
+  padding: 13px 0;
+
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+
+  background-color: #fb565a;
+  border-radius: 3px;
+  border: none;
 }
