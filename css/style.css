@@ -27,8 +27,17 @@ a {
 }
 
 .social-button {
-  color: #000000;
+  display: block;
+  width: 79px;
+  height: 79px;
+  border-radius: 50%;
+  background-color: #e1e1e1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+  cursor: pointer;
 }
+
 .connection {
   color: #444444;
   background-color: #ffffff;
@@ -406,6 +415,11 @@ text-transform: uppercase;
 .pic{
   display: list-item;
 }
+.pic a {
+  opacity: 0.5;
+}
+.pic a:hover,
+.pic a:focus {  opacity: 1;}
 .map {
    background-image: url(../img/map.png);
    min-height: 400px;
@@ -439,7 +453,8 @@ text-transform: uppercase;
 .elements{
   width: auto;
 }
-.settings{
+.settings,
+.settings2 {
   border: none;
   padding: 0;
   margin: 0 0 30px;
@@ -468,7 +483,7 @@ text-transform: uppercase;
   list-style: none;
 }
 .product{
-  width: cals (100%+40px);
+  width: calc (100%+40px);
   margin-right: -40px;
   padding: 0;
     display: flex;
@@ -479,7 +494,7 @@ text-transform: uppercase;
   margin-right: 40px;
   position: relative;
   width: 360px;
-  padding-top: 40px;
+
   margin-bottom: 35px;
   background-repeat: no-repeat;
   background-position: top;
@@ -514,11 +529,17 @@ text-transform: uppercase;
 
 }
 .social-title{
-
+  align-items: center;
+  min-height: 217px;
+  justify-content: flex-start;
+}
+.social-title,
+.social-click {
+  display: flex;
 }
 .social{
   align-items: center;
-  min-height: 217px;
+
   justify-content: flex-start;
 }
 .social-click{
@@ -529,6 +550,40 @@ text-transform: uppercase;
   font-size: 0;
   list-style: none;
 }
+.social__item--vk{
+  background-image: url(../img/vk-icon.png)
+}
+.social__item--fb{
+  background-image: url(../img/fb-icon.png)
+}
+.social__item--ig{
+  background-image: url(../img/insta-icon.png)
+}
+
+.social__item--vk:hover {
+    background-color: #e74246;
+}
+.social__item--fb:hover {
+  background-color: #e74246;
+}
+.social__item--ig:hover {
+  background-color: #e74246;
+}
+}
+.social__item--vk:active {
+ background-color: #d7373b;
+ color: rgba(255, 255, 255, 0.3);
+ }
+}
+.social__item--ig:active {
+ background-color: #d7373b;
+ color: rgba(255, 255, 255, 0.3);
+ }
+}
+.social__item--fb:active {
+ background-color: #d7373b;
+ color: rgba(255, 255, 255, 0.3);
+ }
 .shop{
     padding: 0;
   margin: 0;
@@ -705,14 +760,14 @@ text-transform: uppercase;
 /* Фильтр сложный*/
 
 .filter-item {
-  margin: 0;
-  padding: 0;
 
+  padding: 0;
+  margin: 0 0 60px;
   border: none;
 
   /* Для демонстрации */
   width: 260px;
-  margin: 50px auto;
+
 }
 
 .range-filter {
@@ -824,8 +879,15 @@ text-transform: uppercase;
 .container-al{
   display: flex;
   width: 1160px;
+
+  padding: 55px ;
+
+}
+.container-banner{
+  width: 1160px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 55px 0 105px;
+  text-align: center;
 }
 .container3{
   width: 760px;
@@ -870,32 +932,89 @@ text-transform: uppercase;
   font-weight: 400;
   text-align: left;
 }
-.boroboro {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.pop-up {
+ display: none;
+  position: fixed;
+  z-index: 100;
+  top: calc(50% - 301px);
+  left: calc(50% - 480px);
+  box-sizing: border-box;
+  width: 960px;
+  padding: 80px 100px;
+  background-color: #fff;
+  box-shadow: 0 30px 50px rgba(0,0,0,.7);
 }
-.bor1{
-  width: 50%;
+.pop-up__form-field input {
+  box-sizing: border-box;
+  min-height: 54px;
+  padding: 16px;
+  border: 2px solid #d7dcde;
+}
+.pop-up__form-field--text {
+  width: 100%;
+}
+.pop-up__form-field textarea {
+  padding: 16px;
+  font-family: "Roboto","Arial",sans-serif;
+  color: #b1b1b1;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  border: 2px solid #d7dcde;}
+
+.pop-up__form-field {
+  width: 360px;
   margin: 0 0 30px;
   display: flex;
   flex-direction: column;
 }
-.bor2{
-  width: 100%;
+.pop-up__form-field label {
+  padding-bottom: 10px;
+  color: #000;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
 }
+
+.pop-up__field-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.menu-toggle-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  width: 23px;
+  height: 22px;
+  background: rgba(255,255,255,0);
+  padding: 0;
+  font-size: 0;
+}
+
 .button-style12 {
   display: block;
   padding: 13px 0;
-
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
-
   background-color: #fb565a;
   border-radius: 3px;
   border: none;
 }
+.button-style12:hover,
+.button-style12:focus {
+  background-color: #e74246;
+}
+
+.button-style12:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #d7373b;
+  box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
+}
+

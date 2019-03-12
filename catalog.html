@@ -31,7 +31,7 @@
 <main>
 
   <div class="banner">
-    <div class="container" >
+    <div class="container-banner" >
     <h2 class="shop">Магазин готовых шаблонов</h2>
 </div>
   </div>
@@ -220,40 +220,28 @@
 </div>
 </div>
 </footer>
-<div class="social">
-
-    <div class="index-footer">
-      <div class="note">
-        <form class="note-form connection" action="https://echo.htmlacademy.ru" method="post">
-
-    <h2 class="snow">Напишите нам</h2>
+<section class="pop-up">
+  <form class="pop-up__form" action="index.html" method="get">
     <button class="button slow" type="button">X</button>
-
-
-      <div class="boroboro">
-        <div class="bor1">
-      <label for="name">Ваше имя</label>
-      <input id="name" type="text" name="name" value="" placeholder="Имя Фамилия">
-    </div>
-
-        <div class="bor1">
-      <label for="e-mail" class="bor1">Ваш e-mail:</label>
-      <input id="e-mail" type="email" name="e-mail" value="" placeholder="e-mail">
+    <h2 class="snow">Напишите нам</h2>
+    <div class="pop-up__field-wrapper">
+      <div class="pop-up__form-field">
+        <label for="name-field">Ваше имя:</label>
+        <input id="name-field" type="text" name="name-field" placeholder="Имя Фамилия" required="">
       </div>
-
-<div class="bor2">
-        <label for="text-letter" class="bor2">Текст письма:</label>
-      <textarea id="text-letter"  name="name-text"  placeholder="В свободной форме"></textarea>
+      <div class="pop-up__form-field">
+        <label for="email-field">Ваш e-mail:</label>
+        <input id="email-field" type="email" name="email-field" placeholder="email@example.com" required="">
+      </div>
+      <div class="pop-up__form-field pop-up__form-field--text">
+        <label>Текст письма:</label>
+        <textarea name="text-field" rows="5" required="">В свободной форме</textarea>
       </div>
     </div>
-      <button  class="button-style1" type="submit">Отправить</button>
-
-
-
+    <button  class="button-style1" type="submit">Отправить</button>
   </form>
-  </div>
-</div>
-</div>
+</section>
+
   </body>
 </html>
 

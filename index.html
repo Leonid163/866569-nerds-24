@@ -134,52 +134,48 @@
   </section>
 </main>
 <footer>
-
+<div class="container">
     <div class="social-title">
     <div class="footer-social">
 <ul class="social-click">
-      <li><a class="social-button" href="#"><span class="visually-hidden">Вконтакте</span></a></li>
-      <li><a class="social-button" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
-      <li><a class="social-button" href="#"><span class="visually-hidden">Инстаграм</span></a></li>
+      <li><a class="social-button social__item--vk" href="#"><span class="visually-hidden">Вконтакте</span></a></li>
+      <li><a class="social-button social__item--fb" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
+      <li><a class="social-button social__item--ig" href="#"><span class="visually-hidden">Инстаграм</span></a></li>
     </ul>
   </div>
   <div class="down-top">
-  <div class="container">
+
   <b class="down">Давайте дружить, это выгодно!</b>
   <p class="down-p">Скидка 10%для друзей из социальных сетей.</p>
   </div>
 </div>
 </div>
 </footer>
-<div class="social">
-
-    <div class="index-footer">
-      <div class="note">
-        <form class="note-form connection" action="https://echo.htmlacademy.ru" method="post">
-
-    <h2>Напишите нам</h2>
-    <button class="button" type="button">X</button>
-
-
-      <div class="boroboro">
-      <label for="name" class="bor1">Ваше имя</label>
-      <input id="name" type="text" name="name" value="" placeholder="Имя Фамилия">
-
-    <p>
-      <label for="e-mail" class="bor2">Ваш e-mail:</label>
-      <input id="e-mail" type="email" name="e-mail" value="" placeholder="e-mail">
-    </p>
-    <p>
-        <label for="text-letter" class="bor3">Текст письма:</label>
-      <textarea id="text-letter"  name="name-text"  placeholder="В свободной форме"></textarea>
-      <button  class="button-style1" type="submit">Отправить</button>
-    </p>
+<section class="pop-up">
+  <form class="pop-up__form" action="index.html" method="get">
+    <button class="button slow" type="button">X</button>
+    <h2 class="snow">Напишите нам</h2>
+    <div class="pop-up__field-wrapper">
+      <div class="pop-up__form-field">
+        <label for="name-field">Ваше имя:</label>
+        <input id="name-field" type="text" name="name-field" placeholder="Имя Фамилия" required="">
+      </div>
+      <div class="pop-up__form-field">
+        <label for="email-field">Ваш e-mail:</label>
+        <input id="email-field" type="email" name="email-field" placeholder="email@example.com" required="">
+      </div>
+      <div class="pop-up__form-field pop-up__form-field--text">
+        <label>Текст письма:</label>
+        <textarea name="text-field" rows="5" required="">В свободной форме</textarea>
+      </div>
     </div>
-
+    <button  class="button-style1" type="submit">Отправить</button>
   </form>
-  </div>
-</div>
-</div>
+</section>
+
+
+
+
   </body>
 </html>
 
