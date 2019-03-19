@@ -228,6 +228,8 @@ a {
    color:#283136;
    font-size: 45px;
    line-height: 45px;
+   margin-bottom: 10px;
+   margin-top: 0;
  }
  .services-style-info{
 
@@ -461,7 +463,7 @@ padding-left: 0;
   line-height: 24px;
 }
 .accuracy{
-margin: 30px 20px 0;
+margin: 30px 20px 60px;
 text-transform: uppercase;
 }
 
@@ -481,7 +483,7 @@ text-transform: uppercase;
 .pic{
  display: flex;
   align-items: center;
-  min-height: 100px;
+  min-height: 180px;
   width: 25%;
   justify-content: center;
   position: relative;
@@ -870,7 +872,9 @@ text-transform: uppercase;
   margin-top: 49px;
 }
 
-.filter-item legend {
+.filter-item legend,
+.features,
+.grid {
   font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
@@ -1132,5 +1136,66 @@ text-transform: uppercase;
   margin-bottom: 28px;
   font-size: 16px;
   line-height: 21px;
+}
 
+.checkbox-label {
+  display: block;
+  padding-left: 24px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  position: relative;
+  cursor: pointer;
+}
+.checkbox-label::before {
+
+   content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 23px;
+  height: 23px;
+  /* border-radius: 4px; */
+  /* border: 1px solid #888; */
+  background-image: url(../img/checkbox-off.png);
+  Background-size: contain;
+  Background-repeat: no-repeat;
+}
+
+.checkbox-control:checked + .checkbox-label::before {
+  background-image: url(../img/checkbox-on.png);
+
+}
+
+.checkbox-control:checked:disabled + .checkbox-label {
+  opacity: 0.4;
+}
+.settings-text { margin-left: 9px;}
+
+.checkbox-rub {
+  display: block;
+  padding-left: 24px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  position: relative;
+  cursor: pointer;
+}
+.checkbox-rub::before {
+
+   content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 23px;
+  height: 23px;
+  /* border-radius: 4px; */
+  /* border: 1px solid #888; */
+  background-image: url(../img/radio-off.png);
+  Background-size: contain;
+  Background-repeat: no-repeat;
+}
+
+.radio-control:checked + .checkbox-rub::before {
+  background-image: url(../img/radio-on.png);
 }
