@@ -166,7 +166,7 @@ a {
 .features-list,
 .shop {
   list-style: none;
-  color: #000000;
+
 
   background-color: #eeeeee;
 
@@ -182,6 +182,8 @@ a {
 .down-p {
   font-size: 16px;
   line-height: 22px;
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 .product,
@@ -223,7 +225,7 @@ a {
   font-size: 24px;
   color: #000000;
   line-height: 30px;
-  margin: 17px 0 0;
+  margin: 25px 0 0;
 }
 
 .style-cap {
@@ -238,11 +240,13 @@ a {
 }
 
 .statistic-accuracy {
-  color: #283136;
+  color: #000000;
   font-size: 45px;
   line-height: 45px;
-  margin-bottom: 10px;
+  margin-bottom: 22px;
   margin-top: 0;
+  font-weight: 700;
+
 }
 
 .services-style-info {
@@ -378,12 +382,14 @@ a {
 
 .button-so {
   color: #000000;
+
 }
 
 .button-so,
 .button-so,
 .button-so {
   color: #000000;
+
 }
 
 
@@ -437,25 +443,26 @@ a {
   width: 1160px;
   margin: 0 auto;
   padding: 0 20px;
-
+  position: relative;
 }
 
 .seven {
-  padding-top: 63px;
+  padding-top: 65px;
   padding-bottom: 60px;
   border-bottom: 2px solid #eee;
 }
 
 .list {
   display: flex;
-
+  justify-content: space-between;
+  width: 1100px;
   padding-left: 0;
 }
 
 .list-seven {
   width: 300px;
   justify-content: space-between;
-  margin-right: 100px;
+
 
 }
 
@@ -498,10 +505,22 @@ a {
 }
 
 .accuracy {
-  margin: 30px 20px 60px;
+  margin: 0 0 30px;
   text-transform: uppercase;
+  font-weight: 700;
+  padding-bottom: 40px;
+  color:#000000;
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
 }
-
+.statistic-accuracy-tm{
+  color: #283136;
+  font-size: 16px;
+  line-height: 18px;
+}
+.right img {padding-bottom: 30px;}
 .pictures {
   display: flex;
   flex-direction: row;
@@ -514,6 +533,7 @@ a {
   list-style: none;
   border-bottom: 2px solid #eee;
   margin-bottom: 80px;
+  margin-left: 15px;
 }
 
 .pic {
@@ -525,18 +545,69 @@ a {
   position: relative;
 }
 
-.pic::after {
+/* .pic::after {
   content: "";
   display: block;
   position: absolute;
   width: 2px;
   height: 53px;
   background-color: #eeeeee;
-  right: 0;
+  /* right: 0;
+  top: 50%; */
+
+  .pic-style1{
+    margin-top: 26px;
+    margin-left: 0px;
+    margin-right: 56px;
+  }
+  .pic-style2{
+    margin-right: 40px;
+    margin-top: 15px;
+  }
+  .pic-style3{
+    margin-top: 20px;
+    margin-right: 15px;
+  }
+  .pic-style4{
+    margin-top: 20px;
+  }
+
+
+.zero1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 50px;
+  background-color: #eeeeee;
+  right: 315px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.zero2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 50px;
+  background-color: #eeeeee;
+  right: 304px;
   top: 50%;
   transform: translateY(-50%);
 }
 
+.zero3::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 50px;
+  background-color: #eeeeee;
+  right: 294px;
+  top: 52%;
+  transform: translateY(-50%);
+}
+.
 .pic:nth-child(4n)::after {
   display: none;
 }
@@ -555,18 +626,48 @@ a {
 .map {
   background-image: url(../img/map.png);
   min-height: 400px;
-  padding: 20px 0;
+  padding: 9px 0;
   background-size: cover;
-
+  position: relative;
 }
 
+.map-info-style{
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  width: 219px;
+  height: 36px;
+    margin-top: 25px;
+}
+.map-style-info {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+
+.map iframe {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+}
+.map-info-style2{
+  margin-bottom: 35px;
+}
 .map-info {
   top: 50px;
   width: 200px;
   height: 208px;
   padding: 45px 50px;
   background-color: #ffffff;
-  margin: 30px 30px;
+  margin-left: 0px;
+  margin-top: 48px;
+  padding-bottom: 53px;
+  padding-right: 70px;
 
 }
 
@@ -654,6 +755,7 @@ a {
   margin-right: 40px;
   position: relative;
   width: 360px;
+ overflow: hidden;
 
   margin-bottom: 35px;
   background-repeat: no-repeat;
@@ -677,12 +779,15 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
+  color: #000000;
   margin: 10px;
   padding: 2px 0 0;
   list-style: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
 }
-
+.filter-b a {opacity: 0.4;}
 .filter-a {
   font-size: 18px;
   line-height: 30px;
@@ -696,7 +801,9 @@ a {
   margin: 0px;
 }
 
-.down-top {}
+.down-top {
+   margin-top: 18px;
+}
 
 .social-title {
   align-items: center;
@@ -839,6 +946,7 @@ a {
 
 .slider-controls label {
   display: inline-block;
+  vertical-align: middle;
   width: 18px;
   height: 18px;
   position: relative;
@@ -848,7 +956,12 @@ a {
 
 
 }
-
+.style-filter{
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 .slider-controls {
   position: relative;
 
@@ -970,14 +1083,20 @@ a {
   margin-top: 49px;
 }
 
-.filter-item legend,
+
 .features,
 .grid {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 24px;
-  text-transform: uppercase;
-  font-weight: 700;
+
 }
+.filter-item legend,
+.grid,
+.xxx legend{
+ text-transform: uppercase;
+font-weight: 700;
+font-size: 18px;
+    line-height: 24px;}
 
 .range-controls {
   height: 41px;
@@ -999,10 +1118,11 @@ a {
 .range-controls .bar {
   width: 70%;
   height: 2px;
-
   background: #00ca74;
 }
-
+.bar {
+  margin-left: 20%;
+   width: 30%;}
 .range-controls {
   position: relative;
 }
@@ -1037,6 +1157,7 @@ a {
 
 .price-controls label {
   display: inline-block;
+  vertical-align: middle;
   width: 50%;
   font-size: 16px;
   text-transform: uppercase;
@@ -1130,6 +1251,7 @@ a {
   margin-left: auto;
   display: flex;
   align-items: center;
+
 }
 
 .slow {
@@ -1221,7 +1343,10 @@ a {
   padding: 0;
   font-size: 0;
 }
-
+.six {
+  width: 218px;
+  height: 23px;
+}
 .button-style12 {
   display: block;
   padding: 13px 0;
@@ -1294,6 +1419,10 @@ a {
 
 }
 
+.checkbox-control:focus + .checkbox-label::before {
+  outline: 2px solid red;
+}
+
 .checkbox-control:checked:disabled+.checkbox-label {
   opacity: 0.4;
 }
@@ -1329,14 +1458,42 @@ a {
 .radio-control:checked+.checkbox-rub::before {
   background-image: url(../img/radio-on.svg);
 }
-.style-cap1{
+.style-cap1 li{
   margin-top: 16px;
   margin-bottom: 34px;
   margin-left: 1px;
   margin-right: 1px;
 }
-
+.style-cap p {
+  color: #283136;
+}
+.style-cap1{
+  margin-bottom: 30px;
+}
 .pic img {
  width:100%;
  height: auto;
+}
+.list-seven::before{
+  content: "";
+  width: 100%;
+  height: 146px;
+  display: block;
+  background-size: 100%;
+  background-position: top center;
+
+}
+
+
+.seven-web1::before{
+  background-image: url(../img/illustration-1.png);
+
+}
+.seven-web2::before{
+  background-image: url(../img/illustration-2.png);
+
+}
+.seven-web3::before{
+  background-image: url(../img/illustration-3.png);
+
 }

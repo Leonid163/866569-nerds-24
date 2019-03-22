@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <title>Nerd's</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
-
+<h1 class="visually-hidden">Каталог товара</h1>
 <body>
     <header class="main-header">
         <div class="container">
@@ -31,9 +31,7 @@
     <main>
 
         <div class="banner">
-            <div class="container-banner">
-                <h2 class="shop">Магазин готовых шаблонов</h2>
-            </div>
+          <h2 class="shop">Магазин готовых шаблонов</h2>
         </div>
         <div class="container-al container">
             <div class="catalog-all">
@@ -122,13 +120,13 @@
             <div class="container3">
                 <section class="filter">
 
-                    <p class="filter-A">Сортировать</p>
+                    <h3 class="filter-A style-filter">Сортировать</h3>
                     <p class="fill">
-                        <a class="button-so filter-b">По цене <span class="visually-hidden">По цене</span></a>
-                        <a class="button filter-b"> По типу <span class="visually-hidden">По типу</span></a>
-                        <a class="button filter-b"> По названию <span class="visually-hidden">По названию</span></a>
-                        <a class="button-so filter-b"> &#9650; <span class="visually-hidden">По убыванию</span></a>
-                        <a class="button filter-b"> &#9660; <span class="visually-hidden">По возрастанию</span></a>
+                        <a class="button-so filter-b" href="#">По цене</a>
+                        <a class="button filter-b" href="#"> По типу </a>
+                        <a class="button filter-b" href="#"> По названию </a>
+                        <a class="button-so filter-b" href="#"> &#9650; <span class="visually-hidden">По убыванию</span></a>
+                        <a class="button filter-b" href="#"> &#9660; <span class="visually-hidden">По возрастанию</span></a>
                     </p>
                 </section>
 
@@ -142,7 +140,7 @@
                         </div>
                     </li>
 
-                    <li class="product-1 imggg"><img src="img/img-pink.jpg" width="360" height="576" alt=" PINK">
+                    <li class="product-1"><img src="img/img-pink.jpg" width="360" height="576" alt=" PINK">
                         <div class="info">
                             <a href="#" class="box">PINK APP</a>
                             <p class="info-text">Продуктивный лентинг приложений на iOS и Android</p>
@@ -187,10 +185,10 @@
 
 
                 <ul class="number">
-                    <li class="number-style"><button class="button-number nexts" type="button">1</button></li>
-                    <li class="number-style"><button class="button7" type="button">2</button></li>
-                    <li class="number-style"><button class="button7" type="button">3</button></li>
-                    <li class="number-style"><button class="button7 next-button" type="button">Следующая</button></li>
+                    <li class="number-style"><button class="button-number nexts" type="button" a href="#">1</button></li>
+                    <li class="number-style"><button class="button7" type="button" a href="#">2</button></li>
+                    <li class="number-style"><button class="button7" type="button" a href="#">3</button></li>
+                    <li class="number-style"><button class="button7 next-button" type="button" a href="#">Следующая</button></li>
                 </ul>
             </div>
         </div>
@@ -224,7 +222,9 @@
     </footer>
     <section class="pop-up">
         <form class="pop-up__form" action="index.html" method="get">
-            <button class="button slow" type="button">X</button>
+            <button class="button slow" type="button">X
+                <span class="visually-hidden">Закрыть</span>
+            </button>
             <h2 class="snow">Напишите нам</h2>
             <div class="pop-up__field-wrapper">
                 <div class="pop-up__form-field">
