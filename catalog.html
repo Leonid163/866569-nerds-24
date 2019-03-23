@@ -30,7 +30,7 @@
     </header>
     <main>
 
-        <div class="banner">
+        <div class="banner banner-shop">
           <h2 class="shop">Магазин готовых шаблонов</h2>
         </div>
         <div class="container-al container">
@@ -42,7 +42,7 @@
                             <div class="range-filter">
                                 <div class="range-controls">
                                     <div class="scale">
-                                        <div class="bar" style="margin-left: 20%; width: 30%"></div>
+                                        <div class="bar"></div>
                                     </div>
                                     <div class="toggle toggle-min"></div>
                                     <div class="toggle toggle-max"></div>
@@ -122,11 +122,13 @@
 
                     <h3 class="filter-A style-filter">Сортировать</h3>
                     <p class="fill">
-                        <a class="button-so filter-b" href="#">По цене</a>
-                        <a class="button filter-b" href="#"> По типу </a>
-                        <a class="button filter-b" href="#"> По названию </a>
-                        <a class="button-so filter-b" href="#"> &#9650; <span class="visually-hidden">По убыванию</span></a>
-                        <a class="button filter-b" href="#"> &#9660; <span class="visually-hidden">По возрастанию</span></a>
+                        <a class="button-so filter-b go" href="#">По цене</a>
+                        <a class="button filter-b go" href="#"> По типу </a>
+                        <a class="button filter-b go" href="#"> По названию </a>
+                        <div class="iz">
+                        <a class="button-so filter-b iz" href="#"> &#9660; <span class="visually-hidden">По убыванию</span></a>
+                        <a class="button filter-b il" href="#"> &#9650; <span class="visually-hidden">По возрастанию</span></a>
+                      </div>
                     </p>
                 </section>
 
@@ -193,58 +195,57 @@
             </div>
         </div>
         <section class="map">
-            <div class="container">
-                <div class="map-info">
-                    <b>NЁRDS DESIGN STUDIO</b>
-                    <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8 тел. +7 (812) 275-75-75</p>
-                    <a class="button-style12" href="#">Напишите нам</a>
-                </div>
-            </div>
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aac3b42d1b8276de9c106e7196f63b00637d865f7ecbb5b4a8e37abc201025e92&amp;source=constructor" width="100%" height="600" frameborder="0"></iframe>
+          <div class="container">
+        <div class="map-info">
+        <b class="map-style-info">NЁRDS DESIGN STUDIO</b>
+        <p class="map-info-style">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+        <p class="map-info-style2">тел. +7 (812) 275-75-75</p>
+        <a class="button-style12 six" href="write-us.html">Напишите нам</a>
+      </div>
+      </div>
         </section>
-    </main>
-    <footer>
-        <div class="container">
-            <div class="social-title">
-                <div class="footer-social">
-                    <ul class="social-click">
-                        <li><a class="social-button social__item--vk" href="#"><span class="visually-hidden">Вконтакте</span></a></li>
-                        <li><a class="social-button social__item--fb" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
-                        <li><a class="social-button social__item--ig" href="#"><span class="visually-hidden">Инстаграм</span></a></li>
-                    </ul>
-                </div>
-                <div class="down-top">
-
-                    <b class="down">Давайте дружить, это выгодно!</b>
-                    <p class="down-p">Скидка 10%для друзей из социальных сетей.</p>
-                </div>
-            </div>
+      </main>
+      <footer>
+      <div class="container">
+          <div class="social-title">
+          <div class="footer-social">
+      <ul class="social-click">
+            <li><a class="social-button social__item--vk" href="#"><span class="visually-hidden">Вконтакте</span></a></li>
+            <li><a class="social-button social__item--fb" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
+            <li><a class="social-button social__item--ig" href="#"><span class="visually-hidden">Инстаграм</span></a></li>
+          </ul>
         </div>
-    </footer>
-    <section class="pop-up">
+        <div class="down-top">
+
+        <b class="down">Давайте дружить, это выгодно!</b>
+        <p class="down-p">Скидка 10%для друзей из социальных сетей.</p>
+        </div>
+      </div>
+      </div>
+      </footer>
+      <section class="pop-up">
         <form class="pop-up__form" action="index.html" method="get">
-            <button class="button slow" type="button">X
-                <span class="visually-hidden">Закрыть</span>
-            </button>
-            <h2 class="snow">Напишите нам</h2>
-            <div class="pop-up__field-wrapper">
-                <div class="pop-up__form-field">
-                    <label for="name-field">Ваше имя:</label>
-                    <input id="name-field" type="text" name="name-field" placeholder="Имя Фамилия" required="">
-                </div>
-                <div class="pop-up__form-field">
-                    <label for="email-field">Ваш e-mail:</label>
-                    <input id="email-field" type="email" name="email-field" placeholder="email@example.com" required="">
-                </div>
-                <div class="pop-up__form-field pop-up__form-field--text">
-                    <label>Текст письма:</label>
-                    <textarea name="text-field" rows="5" required="">В свободной форме</textarea>
-                </div>
+          <button class="button slow" type="button">X
+            <span class="visually-hidden">Закрыть</span>
+          </button>
+          <h2 class="snow">Напишите нам</h2>
+          <div class="pop-up__field-wrapper">
+            <div class="pop-up__form-field">
+              <label for="name-field">Ваше имя:</label>
+              <input id="name-field" type="text" name="name-field" placeholder="Имя Фамилия" required="">
             </div>
-            <button class="button-style1" type="submit">Отправить</button>
+            <div class="pop-up__form-field">
+              <label for="email-field">Ваш e-mail:</label>
+              <input id="email-field" type="email" name="email-field" placeholder="email@example.com" required="">
+            </div>
+            <div class="pop-up__form-field pop-up__form-field--text">
+              <label>Текст письма:</label>
+              <textarea name="text-field" rows="5" required="">В свободной форме</textarea>
+            </div>
+          </div>
+          <button  class="button-style1 feel" type="submit">Отправить</button>
         </form>
-    </section>
-
-
-</body>
-
-</html>
+      </section>
+        </body>
+      </html>
