@@ -920,7 +920,10 @@ a
 
     width: 100%;
     height: 100%;
+
+    border: none;
 }
+
 .map-info-style2
 {
     margin-bottom: 37px;
@@ -1358,6 +1361,7 @@ a
 {
     display: flex;
 
+    margin-top: 0;
     margin-bottom: 26px;
 }
 .style-filter
