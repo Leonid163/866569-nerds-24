@@ -8,7 +8,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
-<h1 class="visually-hidden">Каталог товара</h1>
+<h1 class="visually-hidden">Веб-студия Нёрдс. Магазин готовых шаблонов</h1>
 <body>
     <header class="main-header">
         <div class="container">
@@ -53,7 +53,7 @@
                                 </div>
                             </div>
                         </fieldset>
-                        <fieldset class="xxx">
+                        <fieldset class="side-filter">
                             <legend class="grid">Сетка:</legend>
                             <ul class="settings">
                                 <li>
@@ -76,7 +76,7 @@
                                 </li>
                             </ul>
                         </fieldset>
-                        <fieldset class="xxx">
+                        <fieldset class="side-filter">
                             <legend class="features">Особенности:</legend>
                             <ul class="settings2">
                                 <li>
@@ -122,11 +122,11 @@
 
                     <h3 class="filter-A style-filter">Сортировать</h3>
                     <p class="fill">
-                        <a class="button-so filter-b go" href="#">По цене</a>
+                        <a class="button-so filter-b go active" href="#">По цене</a>
                         <a class="button filter-b go" href="#"> По типу </a>
                         <a class="button filter-b go" href="#"> По названию </a>
                         <div class="iz">
-                        <a class="button-so filter-b iz" href="#"> &#9660; <span class="visually-hidden">По убыванию</span></a>
+                        <a class="button-so filter-b iz active" href="#"> &#9660; <span class="visually-hidden">По убыванию</span></a>
                         <a class="button filter-b il" href="#"> &#9650; <span class="visually-hidden">По возрастанию</span></a>
                       </div>
                     </p>
@@ -187,10 +187,10 @@
 
 
                 <ul class="number">
-                    <li class="number-style"><button class="button-number nexts" type="button" a href="#">1</button></li>
-                    <li class="number-style"><button class="button7" type="button" a href="#">2</button></li>
-                    <li class="number-style"><button class="button7" type="button" a href="#">3</button></li>
-                    <li class="number-style"><button class="button7 next-button" type="button" a href="#">Следующая</button></li>
+                    <li class="number-style"><a href="#" class="button7 active">1</a></li>
+                    <li class="number-style"><a href="#" class="button7">2</a></li>
+                    <li class="number-style"><a href="#" class="button7">3</a></li>
+                    <li class="number-style"><a href="#" class="button7 next-button">Следующая</a></li>
                 </ul>
             </div>
         </div>
@@ -226,10 +226,8 @@
       </footer>
       <section class="pop-up">
         <form class="pop-up__form" action="index.html" method="get">
-          <button class="button slow" type="button">X
-            <span class="visually-hidden">Закрыть</span>
-          </button>
-          <h2 class="snow">Напишите нам</h2>
+          <a class="button slow"><span class="visually-hidden">Закрыть</span></a>
+          <h2 class="form-title">Напишите нам</h2>
           <div class="pop-up__field-wrapper">
             <div class="pop-up__form-field">
               <label for="name-field">Ваше имя:</label>
@@ -240,11 +238,11 @@
               <input id="email-field" type="email" name="email-field" placeholder="email@example.com" required="">
             </div>
             <div class="pop-up__form-field pop-up__form-field--text">
-              <label>Текст письма:</label>
-              <textarea name="text-field" rows="5" required="">В свободной форме</textarea>
+              <label for="field-pop">Текст письма:</label>
+              <textarea id="field-pop" name="text-field" rows="5" required="">В свободной форме</textarea>
             </div>
           </div>
-          <button  class="button-style1 feel" type="submit">Отправить</button>
+          <button  class="button-style1" type="submit">Отправить</button>
         </form>
       </section>
         </body>

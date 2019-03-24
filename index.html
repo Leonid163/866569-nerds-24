@@ -8,7 +8,7 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <h1 class="visually-hidden">Главная страница</h1>
+    <h1 class="visually-hidden">Веб-студия Нёрдс</h1>
 <header class="main-header">
 
     <div class="index-columns container">
@@ -154,10 +154,8 @@
 </footer>
 <section class="pop-up">
   <form class="pop-up__form" action="index.html" method="get">
-    <button class="button slow" type="button">X
-      <span class="visually-hidden">Закрыть</span>
-    </button>
-    <h2 class="snow">Напишите нам</h2>
+    <a class="button slow"><span class="visually-hidden">Закрыть</span></a>
+    <h2 class="form-title">Напишите нам</h2>
     <div class="pop-up__field-wrapper">
       <div class="pop-up__form-field">
         <label for="name-field">Ваше имя:</label>
@@ -168,8 +166,8 @@
         <input id="email-field" type="email" name="email-field" placeholder="email@example.com" required="">
       </div>
       <div class="pop-up__form-field pop-up__form-field--text">
-        <label>Текст письма:</label>
-        <textarea name="text-field" rows="5" required="">В свободной форме</textarea>
+        <label for="field-pop">Текст письма:</label>
+        <textarea id="field-pop" name="text-field" rows="5" required="">В свободной форме</textarea>
       </div>
     </div>
     <button  class="button-style1" type="submit">Отправить</button>
