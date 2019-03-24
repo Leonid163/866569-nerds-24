@@ -387,12 +387,7 @@ a
     color: #000;
 }
 
-.number:hover,
-.number:focus
-{
-    color: #000;
-    background-color: #eee;
-}
+
 
 .button-number
 {
